@@ -1,7 +1,13 @@
 # Kompendium wiedzy - ScikitLearn
 
 ## Modules
-- sklearn.cluster
+<details>
+  <summary>- sklearn.cluster</summary>
+  
+  ### Heading
+
+</details>
+
 - sklearn.datasets
 - sklearn.dummy
 - sklearn.feature_selection
