@@ -14,7 +14,8 @@ This algorithm computes the centroids and iterates until it finds optimal centro
 - max_iter - Maximum number of iterations of the k-means algorithm for a single run.
 #### Code Example 
 ```py
-  kmeans = KMeans (n_clusters = 10, random_state = 0)
+  kmeans = KMeans (n_clusters = 10, random_state = 0) #building the model
+  kmeans.fit(X_train) #fitting the model to the dataset
   ```
 
 ## sklearn.datasets
