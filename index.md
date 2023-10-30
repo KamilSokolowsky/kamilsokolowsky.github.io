@@ -12,6 +12,7 @@ This algorithm computes the centroids and iterates until it finds optimal centro
 - init - Method for initialization (k-means++, random).
 - n_init - Number of times the k-means algorithm is run with different centroid seeds.
 - max_iter - Maximum number of iterations of the k-means algorithm for a single run.
+
 #### Code Example 
 ```py
   kmeans = KMeans (n_clusters = 10, random_state = 0) #building the model
