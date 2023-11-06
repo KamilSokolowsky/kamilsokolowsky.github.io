@@ -21,10 +21,22 @@ This algorithm computes the centroids and iterates until it finds optimal centro
 
 ## sklearn.datasets
 
-### from sklear.datasets import fetch_openml etc.
+### OpenML
 
+#### from sklearn.datasets import openml
+Fetch dataset from openml by name or dataset id
 
-</details>
+### classification datasets
+
+#### from sklearn.datasets import load_wine
+#### from sklearn.datasets import load_iris
+#### from sklearn.datasets import load_brest_cancer
+
+### regression datasets
+
+#### from sklearn.datasets import load_diabetes
+#### from sklearn.datasets import fetch_california_housing
+
 <details>
   <summary>sklearn.dummy</summary>
 
