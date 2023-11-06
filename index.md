@@ -21,12 +21,8 @@ This algorithm computes the centroids and iterates until it finds optimal centro
 
 ## sklearn.datasets
 
-### from sklear.cluster import KMeans
-- X - The observation to cluster.
-- n_clusters - The number of clusters to form as well as the number of centroids to generate.
-- init - Method for initialization (k-means++, random).
-- n_init - Number of times the k-means algorithm is run with different centroid seeds.
-- max_iter - Maximum number of iterations of the k-means algorithm for a single run.
+### from sklear.datasets import fetch_openml etc.
+
 
 </details>
 <details>
